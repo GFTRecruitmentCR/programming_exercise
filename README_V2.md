@@ -25,7 +25,7 @@ Exercises
   
   * The rule sequence must be in ascending order using each node's "order" value
   * The rule values must be fetched from "base" using rule as the index of the list
-  * cypher and values have the same length, this means that cypher index should match the rule sequence list index.
+  * cypher and values have the same length, this means that cypher index should match the rule sequence list index. (THIS HAS NO SENSE) The number of rules in Base shoud be equal to the number of objects in Values (M) so the index in Values has a range of size equal to the number of rules in Base. 
 
 
   For the ***output*** a word matrix print is expected.
